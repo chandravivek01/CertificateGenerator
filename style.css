@@ -1,0 +1,42 @@
+body {
+    font-family: system-ui;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main * {
+    margin-bottom: 12px;
+}
+
+input[name="Name"] {
+    line-height: 2em;
+    font-size: x-large;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+button {
+    font-size: large;
+    padding: 15px;
+    background-color: limegreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212121;
+        color: #fff;
+    }
+}
